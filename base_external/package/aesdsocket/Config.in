@@ -1,4 +1,0 @@
-config BR2_PACKAGE_AESDSOCKET
-	bool "aesdsoket"
-	help
-	  Includes the aesdsocket application as developed for assignment 5, part 1.
