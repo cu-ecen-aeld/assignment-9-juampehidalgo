@@ -52,11 +52,12 @@ if [ -r $CFG ]; then
 else
     OWNER="root"
     # Group: since distributions do it differently, look for wheel or use staff
-    if grep -q '^staff:' /etc/group; then
-        GROUP="staff"
-    else
-        GROUP="wheel"
-    fi
+    #if grep -q '^staff:' /etc/group; then
+    #    GROUP="staff"
+    #else
+    #    GROUP="wheel"
+    #fi
+    GROUP="root"
     MODE="666"
 fi
 
